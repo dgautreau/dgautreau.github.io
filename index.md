@@ -1,10 +1,7 @@
 # Portfolio
 ---
-%## Natural Language Processing
 
 ### CS224n: Natural Language Processing with Deep Learning
-
-My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS224n-NLP-Solutions/tree/master/assignments/)
 
@@ -24,7 +21,6 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 
 ---
-%## Data Science
 
 ### Credit Risk Prediction Web App
 
