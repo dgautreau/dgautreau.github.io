@@ -1,4 +1,5 @@
 # Portfolio
+
 ---
 
 ### CS224n: Natural Language Processing with Deep Learning
@@ -11,6 +12,8 @@
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 
 ---
+---
+
 ### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/ames-house-price.html)
@@ -20,6 +23,7 @@
 
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 
+---
 ---
 
 ### Credit Risk Prediction Web App
@@ -33,6 +37,8 @@
 <br>
 
 ---
+---
+
 ### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/ames-house-price.html)
@@ -45,5 +51,6 @@
 
 ---
 ---
+
 <center>© 2022 Dominique Gautreau. Powered by Jekyll and the Minimal Theme.</center>
 
