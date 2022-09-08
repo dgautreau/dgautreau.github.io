@@ -12,7 +12,6 @@
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 
 ---
----
 
 ### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
 
@@ -23,7 +22,6 @@
 
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 
----
 ---
 
 ### Credit Risk Prediction Web App
@@ -36,7 +34,6 @@
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 <br>
 
----
 ---
 
 ### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
