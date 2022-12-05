@@ -32,7 +32,7 @@
 <div style="text-align: justify">
 
 
-  Using spin-polarized denisty functional theory (DFT) calculations, one can extract magnetic exchange constants as follows: after calculating the energy of different spin configurations using spin-DFT, use linear regression to fit the energies to a classical Heisenberg Hamiltonian, $H = E_0\frac{1}{2}\sum_{ij}J_{ij} \textbf{S}_i \cdot \textbf{S}_j$. Each spin configuration will have an associated equation, determined by the particular $\textbf{S}_i \cdot \textbf{S}_j$ terms. If we have $N$ spin configurations, then we have $N$ corresponding equations, which can be condensed into matrix form as follows:
+  Using spin-polarized denisty functional theory (DFT) calculations, one can extract magnetic exchange constants as follows: after calculating the energy of different spin configurations using spin-DFT, use linear regression to fit the energies to a classical Heisenberg Hamiltonian, \(H = E_0\frac{1}{2}\sum_{ij}J_{ij} \textbf{S}_i \cdot \textbf{S}_j\). Each spin configuration will have an associated equation, determined by the particular $\textbf{S}_i \cdot \textbf{S}_j$ terms. If we have $N$ spin configurations, then we have \(N\) corresponding equations, which can be condensed into matrix form as follows:
 
 $$
 \begin{pmatrix}
