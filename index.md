@@ -30,9 +30,11 @@
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-yellowgreen?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
 
 I used this approach in the following publications:
-<a href="https://arxiv.org/abs/2105.06695">Uniaxial strain control of bulk ferromagnetism in rare-earth titanates</a>
-<a href="https://arxiv.org/abs/2102.01542">First-principles characterization of the magnetic properties of \(Cu$_2$(OH)_3Br\) </a>
+<ul>
+<a href="https://arxiv.org/abs/2105.06695">Uniaxial strain control of bulk ferromagnetism in rare-earth titanates</a> 
+<a href="https://arxiv.org/abs/2102.01542">First-principles characterization of the magnetic properties of \(Cu$_2$(OH)_3Br\) </a> 
 <a href="https://arxiv.org/abs/2006.10922">Coexistence and interaction of spinons and magnons in an antiferromagnet with alternating antiferromagnetic and ferromagnetic quantum spin chains</a>
+</ul>
 
 <div style="text-align: justify">
 
