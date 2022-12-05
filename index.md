@@ -93,5 +93,3 @@ for which the optimal parameters of our model, $E_0$, $J_1$, ..., are obtained w
 ---
 ---
 
-# <center>© 2022 Dominique Gautreau. Powered by Jekyll and the Minimal Theme.</center>
-
