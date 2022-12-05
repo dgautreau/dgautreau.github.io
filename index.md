@@ -24,30 +24,74 @@
 
 ---
 
-### Credit Risk Prediction Web App
+### Calculating Magnetic Exchanges from Linear Regression and Density Functional Theory
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-yellowgreen?logo=Jupyter)](projects/ames-house-price.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-yellowgreen?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
 
-<div style="text-align: justify">After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.</div>
+<div style="text-align: justify">
+
+
+  Using spin-polarized denisty functional theory (DFT) calculations, one can extract magnetic exchange constants as follows: after calculating the energy of different spin configurations using spin-DFT, use linear regression to fit the energies to a classical Heisenberg Hamiltonian, $H = E_0\frac{1}{2}\sum_{ij}J_{ij} \textbf{S}_i \cdot \textbf{S}_j$. Each spin configuration will have an associated equation, determined by the particular $\textbf{S}_i \cdot \textbf{S}_j$ terms. If we have $N$ spin configurations, then we have $N$ corresponding equations, which can be condensed into matrix form as follows:
+
+$$
+\begin{pmatrix}
+E_1  \\
+E_2  \\
+\vdots \\
+E_N
+\end{pmatrix} = \begin{pmatrix}
+1 & \beta_{11} & \beta_{12} & \dots & \beta_{1m}\\
+1 & \beta_{21} & \beta_{22} & \dots & \beta_{2m}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+1 & \beta_{N1} & \beta_{N2} & \dots & \beta_{Nm}\\
+\end{pmatrix}
+\begin{pmatrix}
+E_0 \\
+J_1 \\
+J_2 \\
+\vdots\\
+J_m
+\end{pmatrix}
+$$
+
+
+where $\beta_{ij}$ is the coefficient of $J_j$ for spin configuration $i$. In practice the right and left-hand sides are not equal. We do not know the values for the set of exchanges $J$ and the paramagnetic energy $E_0$. We can only try to find the set of values which minimizes a measure of the difference in the RHS and LHS. As such, we define a cost function $\Theta$
+
+$$
+\Theta = 
+\begin{Vmatrix}
+\begin{pmatrix}E_1  \\
+E_2  \\
+\vdots \\
+E_N
+\end{pmatrix} - \begin{pmatrix}
+1 & \beta_{11} & \beta_{12} & \dots & \beta_{1m}\\
+1 & \beta_{21} & \beta_{22} & \dots & \beta_{2m}\\
+\vdots & \vdots & \vdots & \ddots & \vdots\\
+1 & \beta_{N1} & \beta_{N2} & \dots & \beta_{Nm}\\
+\end{pmatrix}
+\begin{pmatrix}
+E_0 \\
+J_1 \\
+J_2 \\
+\vdots\\
+J_m
+\end{pmatrix} 
+\end{Vmatrix}^2
+$$
+
+for which the optimal parameters of our model, $E_0$, $J_1$, ..., are obtained when $\Theta$ is minimized.</div>
 <br>
 <center><img src="images/dummy_thumbnail.jpg"/></center>
 <br>
 
----
 
-### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-yellowgreen?logo=Jupyter)](projects/ames-house-price.html)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-yellowgreen?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
 
-<div style="text-align: justify">I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking <b>95/15502</b>, approximately <b>top 0.6%</b> in the Kaggle leaderboard.</div>
-<br>
-<center><img src="images/dummy_thumbnail.jpg"/></center>
-<br>
 
 ---
 ---
 
-<center>© 2022 Dominique Gautreau. Powered by Jekyll and the Minimal Theme.</center>
+# <center>© 2022 Dominique Gautreau. Powered by Jekyll and the Minimal Theme.</center>
 
